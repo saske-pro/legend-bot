@@ -335,23 +335,23 @@ client.on('guildCreate', guild => {
          const embed = new Discord.RichEmbed()
      .setColor("RED")
      .setTitle('Click Here To Add Bot .!')
-     .setURL('https://discordapp.com/api/oauth2/authorize?client_id=484098782158651392&permissions=8&scope=bot')
+     .setURL('https://discordapp.com/api/oauth2/authorize?client_id=554001091403186197&permissions=8&scope=bot')
   .setDescription(`**
 اسم السيرفر: ${guild.name}
 صاحب السيرفر: ${guild.owner}**`);
-client.channels.get("406877114936197120").sendEmbed(embed)
+client.channels.get("468836034185265162").sendEmbed(embed)
 });
 
 client.on('guildDelete', guild => {
          const embed = new Discord.RichEmbed()
      .setColor("GOLD")
      .setTitle('Click Here To Add Bot .!')
-     .setURL('https://discordapp.com/api/oauth2/authorize?client_id=484098782158651392&permissions=8&scope=bot')
+     .setURL('https://discordapp.com/api/oauth2/authorize?client_id=554001091403186197&permissions=8&scope=bot')
   .setDescription(`**
   Server Kicked Legend System :cry:
 اسم السيرفر: ${guild.name}
 صاحب السيرفر: ${guild.owner}**`);
-client.channels.get("406877114936197120").sendEmbed(embed)
+client.channels.get("468836034185265162").sendEmbed(embed)
 });
  
 
@@ -2395,7 +2395,7 @@ if (message.content.startsWith("=setVoice")) {
 
 client.on('message', message => {
     if (message.content === 'هاي') {
-        message.reply('♪ هــأايات أطلـَـق ولكــم☆');
+        message.reply('**♪ هــأايات أطلـَـق ولكــم☆**');
       }
 });
 
@@ -2404,27 +2404,27 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === '....') {
-        message.reply('♪أطلـَـق من نقط, يلــبى بس ☆');
+        message.reply('**♪أطلـَـق من نقط, يلــبى بس ☆**');
       }
 });
 
 
 client.on('message', message => {
     if (message.content === '...') {
-        message.reply('♪أطلـَـق من نقط, يلــبى بس ☆');
+        message.reply('**♪أطلـَـق من نقط, يلــبى بس ☆**');
       }
 });
 
 
 client.on('message', message => {
     if (message.content === '..') {
-        message.reply('♪أطلـَـق من نقط, يلــبى بس ☆');
+        message.reply('**♪أطلـَـق من نقط, يلــبى بس ☆**');
       }
 });
 
 client.on('message', message => {
     if (message.content === '.') {
-        message.reply('♪أطلـَـق من نقط, يلــبى بس ☆');
+        message.reply('**♪أطلـَـق من نقط, يلــبى بس ☆**');
       }
 });
 
