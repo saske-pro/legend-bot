@@ -335,23 +335,23 @@ client.on('guildCreate', guild => {
          const embed = new Discord.RichEmbed()
      .setColor("RED")
      .setTitle('Click Here To Add Bot .!')
-     .setURL('https://discordapp.com/api/oauth2/authorize?client_id=554001091403186197&permissions=8&scope=bot')
+     .setURL('https://discordapp.com/api/oauth2/authorize?client_id=484098782158651392&permissions=8&scope=bot')
   .setDescription(`**
 اسم السيرفر: ${guild.name}
 صاحب السيرفر: ${guild.owner}**`);
-client.channels.get("468836034185265162").sendEmbed(embed)
+client.channels.get("406877114936197120").sendEmbed(embed)
 });
 
 client.on('guildDelete', guild => {
          const embed = new Discord.RichEmbed()
      .setColor("GOLD")
      .setTitle('Click Here To Add Bot .!')
-     .setURL('https://discordapp.com/api/oauth2/authorize?client_id=554001091403186197&permissions=8&scope=bot')
+     .setURL('https://discordapp.com/api/oauth2/authorize?client_id=484098782158651392&permissions=8&scope=bot')
   .setDescription(`**
   Server Kicked Legend System :cry:
 اسم السيرفر: ${guild.name}
 صاحب السيرفر: ${guild.owner}**`);
-client.channels.get("468836034185265162").sendEmbed(embed)
+client.channels.get("406877114936197120").sendEmbed(embed)
 });
  
 
@@ -359,8 +359,8 @@ client.on('message', message => {
             if(!message.channel.guild) return;
 let args = message.content.split(' ').slice(1).join(' ');
 if (message.content.startsWith('LG=bcall')){
- if (message.author.id !== '468836034185265162') return message.reply('** هذا الأمر قفط لصاحب البوت و شكراًً **')
- if(!message.author.id === '468836034185265162') return;
+ if (message.author.id !== '406877114936197120') return message.reply('** هذا الأمر قفط لصاحب البوت و شكراًً **')
+ if(!message.author.id === '406877114936197120') return;
 message.channel.sendMessage('جار ارسال الرسالة |✅')
 client.users.forEach(m =>{
 m.sendMessage(args)
@@ -554,7 +554,7 @@ function play(guild, song) {
 	serverQueue.textChannel.send(`بدء تشغيل : **${song.title}**`);
 }
 const adminprefix = "=";
-const devs = ['468836034185265162','468836034185265162'];
+const devs = ['484098680954290219','487313531071496195'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
@@ -1494,7 +1494,7 @@ msg.channel.send(embed).then(() => {
 
 client.on('ready', function(){	
     var ms = 40000 ;	
-    var setGame = ['HL4E '];	
+    var setGame = ['HLE'];	
     var i = -1;	
     var j = 0;	
     setInterval(function (){	
@@ -2395,7 +2395,7 @@ if (message.content.startsWith("=setVoice")) {
 
 client.on('message', message => {
     if (message.content === 'هاي') {
-        message.reply('**♪ هــأايات أطلـَـق ولكــم☆**');
+        message.reply('♪ هــأايات أطلـَـق ولكــم☆');
       }
 });
 
@@ -2404,27 +2404,27 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === '....') {
-        message.reply('**♪أطلـَـق من نقط, يلــبى بس ☆**');
+        message.reply('♪أطلـَـق من نقط, يلــبى بس ☆');
       }
 });
 
 
 client.on('message', message => {
     if (message.content === '...') {
-        message.reply('**♪أطلـَـق من نقط, يلــبى بس ☆**');
+        message.reply('♪أطلـَـق من نقط, يلــبى بس ☆');
       }
 });
 
 
 client.on('message', message => {
     if (message.content === '..') {
-        message.reply('**♪أطلـَـق من نقط, يلــبى بس ☆**');
+        message.reply('♪أطلـَـق من نقط, يلــبى بس ☆');
       }
 });
 
 client.on('message', message => {
     if (message.content === '.') {
-        message.reply('**♪أطلـَـق من نقط, يلــبى بس ☆**');
+        message.reply('♪أطلـَـق من نقط, يلــبى بس ☆');
       }
 });
 
